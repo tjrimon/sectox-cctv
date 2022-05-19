@@ -5,7 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import logo from "../../images/logo.png";
+import logo from "../../../images/logo.png";
 
 const Navbar = () => {
   const mainMenu = (
