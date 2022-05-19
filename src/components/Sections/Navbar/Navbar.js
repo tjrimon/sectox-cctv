@@ -15,7 +15,7 @@ const Navbar = () => {
           Home
           <FontAwesomeIcon icon={faPlus} className="text-sm ml-[-8px]" />
         </a>
-        <ul class="p-2 font-normal">
+        <ul class="p-2 font-normal bg-white">
           <li>
             <a>Home 1</a>
           </li>
