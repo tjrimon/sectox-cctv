@@ -10,7 +10,7 @@ import author from "../../../images/author.png";
 
 const About = () => {
   return (
-    <div className="flex items-center container mx-auto my-20">
+    <div className="flex items-center container mx-auto py-24">
       {/* about us image section  */}
       <div className="w-1/2 p-5">
         <img src={aboutImage} alt="" />

@@ -35,7 +35,7 @@ const Navbar = () => {
           Services
           <FontAwesomeIcon icon={faPlus} className="text-sm ml-[-8px]" />
         </a>
-        <ul class="p-2 font-normal">
+        <ul class="p-2 font-normal bg-white">
           <li>
             <a>Service 1</a>
           </li>
@@ -52,7 +52,7 @@ const Navbar = () => {
           Pages
           <FontAwesomeIcon icon={faPlus} className="text-sm ml-[-8px]" />
         </a>
-        <ul class="p-2 font-normal">
+        <ul class="p-2 font-normal bg-white">
           <li>
             <a>Page 1</a>
           </li>
