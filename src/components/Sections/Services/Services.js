@@ -16,7 +16,7 @@ const Services = ({ color }) => {
   const [openTab, setOpenTab] = useState(2);
 
   return (
-    <div className="bg-gray-200">
+    <div className="bg-[#F8F8F8]">
       <div className=" container mx-auto py-24 ">
         <div className="flex text-center justify-center items-center text-primary font-bold uppercase">
           <hr className="ml-3 border-[1px]  border-primary w-8 mr-3" />
