@@ -80,14 +80,14 @@ const Process = () => {
         Providing Smart Security For The Smart Generation.
       </h3>
       <div className="flex justify-center items-center gap-5 pt-7">
-        <button class="btn btn-primary rounded-none text-[14px] capitalize text-white">
+        <button className="btn btn-primary rounded-none text-[14px] capitalize text-white">
           Commercial CCTV System
           <FontAwesomeIcon
             className="pl-1"
             icon={faArrowRightLong}
           ></FontAwesomeIcon>
         </button>
-        <button class="btn bg-black rounded-none text-[14px] text-white capitalize">
+        <button className="btn bg-black rounded-none text-[14px] text-white capitalize">
           Residential CCTV System
         </button>
       </div>

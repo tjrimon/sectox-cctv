@@ -9,11 +9,11 @@ import sliderImage from "../../../images/home-bg.png";
 const Slider = () => {
   return (
     <div>
-      <div class="carousel w-full">
-        <div id="slide1" class="carousel-item relative w-full">
-          <img src={sliderImage} class="w-full" />
-          <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn text-[30px] border-none">
+      <div className="carousel w-full">
+        <div id="slide1" className="carousel-item relative w-full">
+          <img src={sliderImage} className="w-full" />
+          <div className="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" className="btn text-[30px] border-none">
               <FontAwesomeIcon icon={faArrowLeftLong}></FontAwesomeIcon>
             </a>
             <div className="text-center">
@@ -26,23 +26,23 @@ const Slider = () => {
                 From All Issues
               </h3>
               <div className="flex justify-center items-center gap-5">
-                <button class="btn rounded-none text-[14px] hover:text-white text-secondary hover:border-white border-white hover:bg-transparent bg-white">
+                <button className="btn rounded-none text-[14px] hover:text-white text-secondary hover:border-white border-white hover:bg-transparent bg-white">
                   Our Service
                 </button>
-                <button class="btn btn-primary rounded-none text-[14px] text-white">
+                <button className="btn btn-primary rounded-none text-[14px] text-white">
                   Get In Touch
                 </button>
               </div>
             </div>
-            <a href="#slide2" class="btn text-[30px] border-none">
+            <a href="#slide2" className="btn text-[30px] border-none">
               <FontAwesomeIcon icon={faArrowRightLong}></FontAwesomeIcon>
             </a>
           </div>
         </div>
-        <div id="slide2" class="carousel-item relative w-full">
-          <img src={sliderImage} class="w-full" />
-          <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-0 right-0 top-1/2 px-10">
-            <a href="#slide1" class="btn text-[30px] border-none">
+        <div id="slide2" className="carousel-item relative w-full">
+          <img src={sliderImage} className="w-full" />
+          <div className="absolute flex justify-between items-center transform -translate-y-1/2 left-0 right-0 top-1/2 px-10">
+            <a href="#slide1" className="btn text-[30px] border-none">
               <FontAwesomeIcon icon={faArrowLeftLong}></FontAwesomeIcon>
             </a>
             <div className="text-center">
@@ -55,15 +55,15 @@ const Slider = () => {
                 From All Issues
               </h3>
               <div className="flex justify-center items-center gap-5">
-                <button class="btn rounded-none text-[14px] hover:text-white text-secondary hover:border-white border-white hover:bg-transparent bg-white">
+                <button className="btn rounded-none text-[14px] hover:text-white text-secondary hover:border-white border-white hover:bg-transparent bg-white">
                   Our Service
                 </button>
-                <button class="btn btn-primary rounded-none text-[14px] text-white">
+                <button className="btn btn-primary rounded-none text-[14px] text-white">
                   Get In Touch
                 </button>
               </div>
             </div>
-            <a href="#slide1" class="btn text-[30px] border-none">
+            <a href="#slide1" className="btn text-[30px] border-none">
               <FontAwesomeIcon icon={faArrowRightLong}></FontAwesomeIcon>
             </a>
           </div>

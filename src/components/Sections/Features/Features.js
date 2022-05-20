@@ -68,14 +68,14 @@ const Features = () => {
             </div>
           </div>
           <div className="flex items-center gap-5 pt-7">
-            <button class="btn btn-primary rounded-none text-[14px] capitalize text-white">
+            <button className="btn btn-primary rounded-none text-[14px] capitalize text-white">
               Get in Touch
               <FontAwesomeIcon
                 className="pl-1"
                 icon={faArrowRightLong}
               ></FontAwesomeIcon>
             </button>
-            <button class="btn bg-black rounded-none text-[14px] text-white capitalize">
+            <button className="btn bg-black rounded-none text-[14px] text-white capitalize">
               7 Days Free Trail
             </button>
           </div>

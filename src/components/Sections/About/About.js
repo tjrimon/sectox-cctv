@@ -58,7 +58,7 @@ const About = () => {
           </div>
         </div>
         <div className="flex gap-6">
-          <button class="font-bold border px-5 my-2">
+          <button className="font-bold border px-5 my-2">
             Learn More
             <FontAwesomeIcon
               className="pl-1"

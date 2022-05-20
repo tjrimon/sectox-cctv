@@ -10,12 +10,12 @@ import logo from "../../../images/logo.png";
 const Navbar = () => {
   const mainMenu = (
     <>
-      <li tabindex="0">
-        <a class="justify-between">
+      <li tabIndex="0">
+        <a className="justify-between">
           Home
           <FontAwesomeIcon icon={faPlus} className="text-sm ml-[-8px]" />
         </a>
-        <ul class="p-2 font-normal bg-white">
+        <ul className="p-2 font-normal bg-white">
           <li>
             <a>Home 1</a>
           </li>
@@ -30,12 +30,12 @@ const Navbar = () => {
       <li>
         <a>About</a>
       </li>
-      <li tabindex="0">
-        <a class="justify-between">
+      <li tabIndex="0">
+        <a className="justify-between">
           Services
           <FontAwesomeIcon icon={faPlus} className="text-sm ml-[-8px]" />
         </a>
-        <ul class="p-2 font-normal bg-white">
+        <ul className="p-2 font-normal bg-white">
           <li>
             <a>Service 1</a>
           </li>
@@ -47,12 +47,12 @@ const Navbar = () => {
           </li>
         </ul>
       </li>
-      <li tabindex="0">
-        <a class="justify-between">
+      <li tabIndex="0">
+        <a className="justify-between">
           Pages
           <FontAwesomeIcon icon={faPlus} className="text-sm ml-[-8px]" />
         </a>
-        <ul class="p-2 font-normal bg-white">
+        <ul className="p-2 font-normal bg-white">
           <li>
             <a>Page 1</a>
           </li>
@@ -78,28 +78,28 @@ const Navbar = () => {
   return (
     <div>
       {/* Top Navbar  */}
-      <div className="hidden md:block">
+      <div className="hidden md:block" id="home">
         <div className="h-[40px] flex justify-center items-center px-10 bg-gray-100">
-          <div class="navbar p-0 m-0">
-            <div class="flex-1">
-              <p class="text-second">
+          <div className="navbar p-0 m-0">
+            <div className="flex-1">
+              <p className="text-second">
                 <b>Limited Time Offer:</b> Shop online and get free no-contact
                 deliver
               </p>
             </div>
-            <div class="flex-none">
-              <ul class="menu menu-horizontal p-0 text-secondary">
+            <div className="flex-none">
+              <ul className="menu menu-horizontal p-0 text-secondary">
                 <li>
                   <a className="py-0 text-sm font-bold">FAQ</a>
                 </li>
                 <li>
                   <a className="py-0 text-sm font-bold">Careers</a>
                 </li>
-                <li tabindex="0">
+                <li tabIndex="0">
                   <a className="py-0 text-sm">
                     English
                     <svg
-                      class="fill-current"
+                      className="fill-current"
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
                       height="20"
@@ -108,7 +108,7 @@ const Navbar = () => {
                       <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                     </svg>
                   </a>
-                  <ul class="p-2 bg-gray-100 text-secondary">
+                  <ul className="p-2 bg-gray-100 text-secondary">
                     <li>
                       <a className="">Spanish</a>
                     </li>
@@ -124,28 +124,28 @@ const Navbar = () => {
       </div>
       {/* main nav section  */}
 
-      <div class="navbar bg-white py-6 px-10">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost lg:hidden">
+      <div className="navbar bg-white py-6 px-10">
+        <div className="navbar-start">
+          <div className="dropdown">
+            <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
             </label>
             <ul
-              tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-bold"
+              tabIndex="0"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-bold"
             >
               {mainMenu}
             </ul>
@@ -154,24 +154,24 @@ const Navbar = () => {
             <img width="120" src={logo} alt="" />
           </a>
         </div>
-        <div class="navbar-center hidden lg:flex font-bold">
-          <ul class="menu menu-horizontal p-0">{mainMenu}</ul>
+        <div className="navbar-center hidden lg:flex font-bold">
+          <ul className="menu menu-horizontal p-0">{mainMenu}</ul>
         </div>
-        <div class="navbar-end">
+        <div className="navbar-end">
           <a
-            class="btn bg-white hover:bg-white rounded-none text-[14px] text-secondary border-gray-300 hover:border-gray-300 mr-3 "
+            className="btn bg-white hover:bg-white rounded-none text-[14px] text-secondary border-gray-300 hover:border-gray-300 mr-3 "
             href="#"
           >
             <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
           </a>
           <a
-            class="btn bg-white hover:bg-white rounded-none text-[14px] text-secondary border-gray-300 hover:border-gray-300 mr-3"
+            className="btn bg-white hover:bg-white rounded-none text-[14px] text-secondary border-gray-300 hover:border-gray-300 mr-3"
             href="#"
           >
             <FontAwesomeIcon icon={faCartShopping} />
           </a>
           <a
-            class="btn btn-primary rounded-none text-[14px] text-white"
+            className="btn btn-primary rounded-none text-[14px] text-white"
             href="#"
           >
             Make Appointment

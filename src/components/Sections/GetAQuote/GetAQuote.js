@@ -7,10 +7,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import IntroVideo from "../IntroVideo/IntroVideo";
 
 const GetAQuote = () => {
   return (
-    <div className="container mx-auto pt-20">
+    <div className="container mx-auto pt-20 bg-white  backface-hidden  mb-[-120px]">
       <div className="flex text-center justify-center items-center text-primary font-bold uppercase">
         <hr className="ml-3 border-[1px]  border-primary w-8 mr-3" />
         <p className="text-center">get a quote</p>
@@ -20,30 +21,30 @@ const GetAQuote = () => {
         Meet Our Best Program For
         <br /> Your Best Results
       </h3>
-      <div className="shadow-lg">
+      <div className="shadow-lgx">
         <form className="p-5">
           <div className="flex justify-between p-5">
             <div className="w-2/3 grid gap-5 grid-cols-2">
-              <select class="select select-bordered w-full  rounded-none">
+              <select className="select select-bordered w-full  rounded-none">
                 <option disabled selected>
                   CCTV Camera
                 </option>
                 <option>Option 1</option>
                 <option>Option 2</option>
               </select>
-              <select class="select select-bordered w-full  rounded-none">
+              <select className="select select-bordered w-full  rounded-none">
                 <option>01</option>
                 <option selected>02</option>
                 <option>03</option>
               </select>
-              <select class="select select-bordered w-full  rounded-none">
+              <select className="select select-bordered w-full  rounded-none">
                 <option disabled selected>
                   500TB
                 </option>
                 <option>1000TB</option>
                 <option>2000TB</option>
               </select>
-              <select class="select select-bordered w-full rounded-none">
+              <select className="select select-bordered w-full rounded-none">
                 <option disabled selected>
                   4K Video Capture
                 </option>
@@ -52,12 +53,12 @@ const GetAQuote = () => {
               </select>
             </div>
             <div className="w-1/3">
-              <button class="mx-5 btn btn-primary rounded-none text-[14px] capitalize w-full  text-white">
+              <button className="mx-5 btn btn-primary rounded-none text-[14px] capitalize w-full  text-white">
                 Total: $18,000
               </button>
               <button
                 type="submit"
-                class="mx-5 mt-5 btn bg-black rounded-none text-[14px] text-white w-full capitalize"
+                className="mx-5 mt-5 btn bg-black rounded-none text-[14px] text-white w-full capitalize"
               >
                 Make Order Now
                 <FontAwesomeIcon
@@ -68,12 +69,12 @@ const GetAQuote = () => {
             </div>
           </div>
         </form>
-        <h3 className="text-[18px] text-center pt-10 pb-3 font-bold">
+        <h3 className="text-[17px] text-center py-10">
           To Buy <b>CCTV Camera</b> Just Click Start To Buy Button & Submit
           Required Details.
         </h3>
-        <div className="bg-primary flex justify-between items-center px-5 gap-3">
-          <div className="flex items-center gap-5 pt-10">
+        <div className="bg-primary flex justify-between items-center py-3 px-5 gap-3">
+          <div className="flex items-center gap-5 ">
             <FontAwesomeIcon
               className="bg-white text-secondary rounded-full p-3 text-xl"
               icon={faClock}
@@ -83,7 +84,7 @@ const GetAQuote = () => {
               <h3 className="text-[14px] font-bold">Within 24/7 Hours</h3>
             </div>
           </div>
-          <div className="flex items-center gap-5 pt-10">
+          <div className="flex items-center gap-5 ">
             <FontAwesomeIcon
               className="bg-white text-secondary rounded-full p-3 text-xl"
               icon={faCalendar}
@@ -93,7 +94,7 @@ const GetAQuote = () => {
               <h3 className="text-[14px] font-bold">Service Available</h3>
             </div>
           </div>
-          <div className="flex items-center gap-5 pt-10">
+          <div className="flex items-center gap-5 ">
             <FontAwesomeIcon
               className="bg-white text-secondary rounded-full p-3 text-xl"
               icon={faEnvelope}
@@ -103,7 +104,7 @@ const GetAQuote = () => {
               <h3 className="text-[14px] font-bold">info@webmail.com</h3>
             </div>
           </div>
-          <div className="flex items-center gap-5 pt-10">
+          <div className="flex items-center gap-5">
             <FontAwesomeIcon
               className="bg-white text-secondary rounded-full p-3 text-xl"
               icon={faPhone}

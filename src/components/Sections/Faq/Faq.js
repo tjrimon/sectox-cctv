@@ -20,10 +20,10 @@ const Faq = () => {
             Have To Protect <br />
             All Over The Globe.
           </h3>
-          <div class="flex flex-wrap sm:mx-auto sm:mb-2 ">
-            <div class="w-full lg:w-2/3 px-4 py-2">
-              <details class="mb-4 shadow-lg">
-                <summary class="font-semibold  bg-[#FAFAFA] p-4">
+          <div className="flex flex-wrap sm:mx-auto sm:mb-2 ">
+            <div className="w-full lg:w-2/3 px-4 py-2">
+              <details className="mb-4 shadow-lg">
+                <summary className="font-semibold  bg-[#FAFAFA] p-4">
                   Coordinate movement with breath to flow?
                 </summary>
 
@@ -33,8 +33,8 @@ const Faq = () => {
                   class or test out a PURE Yoga class anytime, anywhere.
                 </span>
               </details>
-              <details class="mb-4 shadow-lg">
-                <summary class="font-semibold  bg-[#FAFAFA] p-4">
+              <details className="mb-4 shadow-lg">
+                <summary className="font-semibold  bg-[#FAFAFA] p-4">
                   Coordinate movement with breath to flow?
                 </summary>
 
@@ -44,8 +44,8 @@ const Faq = () => {
                   class or test out a PURE Yoga class anytime, anywhere.
                 </span>
               </details>
-              <details class="mb-4 shadow-lg">
-                <summary class="font-semibold  bg-[#FAFAFA] p-4">
+              <details className="mb-4 shadow-lg">
+                <summary className="font-semibold  bg-[#FAFAFA] p-4">
                   Coordinate movement with breath to flow?
                 </summary>
 
