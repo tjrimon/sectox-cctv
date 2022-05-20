@@ -15,7 +15,7 @@ const Process = () => {
     <div className="py-20 container mx-auto">
       <div className="flex text-center justify-center items-center text-primary font-bold uppercase">
         <hr className="ml-3 border-[1px]  border-primary w-8 mr-3" />
-        <p className="text-center">Services</p>
+        <p className="text-center">Process</p>
         <hr className="ml-3 border-[1px]  border-primary w-8 " />
       </div>
       <h3 className="text-[35px] text-center pb-3 lg:text-[60px] font-bold">
