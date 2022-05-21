@@ -5,18 +5,18 @@ import "./Faq.css";
 const Faq = () => {
   return (
     <div>
-      <div className="flex items-center container mx-auto pt-20 pb-16">
+      <div className="md:flex items-center container mx-auto pt-20 pb-16">
         {/* faq image section  */}
-        <div className="w-1/2 p-5">
+        <div className="md:w-1/2 p-5">
           <img src={faqImage} alt="" />
         </div>
         {/* faq content section  */}
-        <div className="w-1/2 p-5">
-          <div className="flex items-center text-primary font-bold uppercase">
+        <div className="md:w-1/2 p-5">
+          <div className="flex items-center justify-center md:justify-start  text-primary font-bold uppercase">
             <p>FAQ</p>
             <hr className="ml-3 border-[1px] border-primary w-8 " />
           </div>
-          <h3 className="text-[35px] lg:text-[60px] font-bold">
+          <h3 className="text-[25px] md:text-[35px] lg:text-[60px] font-bold text-center md:text-left">
             Have To Protect <br />
             All Over The Globe.
           </h3>

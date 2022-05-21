@@ -17,14 +17,14 @@ const GetAQuote = () => {
         <p className="text-center">get a quote</p>
         <hr className="ml-3 border-[1px]  border-primary w-8 " />
       </div>
-      <h3 className="text-[35px] text-center pb-3 lg:text-[60px] font-bold">
+      <h3 className="text-[25px] md:text-[35px] text-center pb-3 lg:text-[60px] font-bold">
         Meet Our Best Program For
         <br /> Your Best Results
       </h3>
       <div className="shadow-lgx">
         <form className="p-5">
-          <div className="flex justify-between p-5">
-            <div className="w-2/3 grid gap-5 grid-cols-2">
+          <div className="md:flex justify-between p-5">
+            <div className="md:w-2/3 grid gap-5 grid-cols-1 md:grid-cols-2">
               <select className="select select-bordered w-full  rounded-none">
                 <option disabled selected>
                   CCTV Camera
@@ -52,13 +52,13 @@ const GetAQuote = () => {
                 <option>Option 2</option>
               </select>
             </div>
-            <div className="w-1/3">
-              <button className="mx-5 btn btn-primary rounded-none text-[14px] capitalize w-full  text-white">
+            <div className="md:w-1/3 ">
+              <button className="md:mx-5 mt-5 md:mt-0 btn btn-primary rounded-none text-[14px] capitalize w-full  text-white">
                 Total: $18,000
               </button>
               <button
                 type="submit"
-                className="mx-5 mt-5 btn bg-black rounded-none text-[14px] text-white w-full capitalize"
+                className="md:mx-5 mt-5 btn bg-black rounded-none text-[14px] text-white w-full capitalize"
               >
                 Make Order Now
                 <FontAwesomeIcon
@@ -73,43 +73,43 @@ const GetAQuote = () => {
           To Buy <b>CCTV Camera</b> Just Click Start To Buy Button & Submit
           Required Details.
         </h3>
-        <div className="bg-primary flex justify-between items-center py-3 px-5 gap-3">
-          <div className="flex items-center gap-5 ">
+        <div className="bg-primary md:flex justify-between items-center py-10 md:py-3 px-5 gap-3">
+          <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-5 ">
             <FontAwesomeIcon
               className="bg-white text-secondary rounded-full p-3 text-xl"
               icon={faClock}
             ></FontAwesomeIcon>
-            <div className="text-white">
+            <div className="text-white text-center md:text-left pb-3 md:pb-0">
               <p className="text-[12px]">Free Quote</p>
               <h3 className="text-[14px] font-bold">Within 24/7 Hours</h3>
             </div>
           </div>
-          <div className="flex items-center gap-5 ">
+          <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-5 ">
             <FontAwesomeIcon
               className="bg-white text-secondary rounded-full p-3 text-xl"
               icon={faCalendar}
             ></FontAwesomeIcon>
-            <div className="text-white">
+            <div className="text-white text-center md:text-left pb-3 md:pb-0">
               <p className="text-[12px]">Same Day </p>
               <h3 className="text-[14px] font-bold">Service Available</h3>
             </div>
           </div>
-          <div className="flex items-center gap-5 ">
+          <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-5 ">
             <FontAwesomeIcon
               className="bg-white text-secondary rounded-full p-3 text-xl"
               icon={faEnvelope}
             ></FontAwesomeIcon>
-            <div className="text-white">
+            <div className="text-white text-center md:text-left pb-3 md:pb-0">
               <p className="text-[12px]">Support Email </p>
               <h3 className="text-[14px] font-bold">info@webmail.com</h3>
             </div>
           </div>
-          <div className="flex items-center gap-5">
+          <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-5">
             <FontAwesomeIcon
               className="bg-white text-secondary rounded-full p-3 text-xl"
               icon={faPhone}
             ></FontAwesomeIcon>
-            <div className="text-white">
+            <div className="text-white text-center md:text-left pb-3 md:pb-0">
               <p className="text-[12px]">Friendly Advice </p>
               <h3 className="text-[14px] font-bold">555 896 333 33</h3>
             </div>

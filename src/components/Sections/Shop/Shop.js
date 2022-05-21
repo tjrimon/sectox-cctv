@@ -19,7 +19,7 @@ const Shop = () => {
           Our Products
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-8">
-          <div className="w-[300px] bg-white text-center py-8">
+          <div className="w-[300px] bg-white text-center py-8 mx-auto">
             <img src={productImage1} alt="" className="mx-auto" />
             <div className="text-primary py-4 flex gap-2 justify-center">
               <FontAwesomeIcon icon={faStar} />
@@ -31,7 +31,7 @@ const Shop = () => {
             <p>Logitech 56V Web Cam Pro</p>
             <p className="text-lg font-bold">$39.00</p>
           </div>
-          <div className="w-[300px] bg-white text-center py-8">
+          <div className="w-[300px] bg-white text-center py-8 mx-auto">
             <img src={productImage2} alt="" className="mx-auto" />
             <div className="text-primary py-4 flex gap-2 justify-center">
               <FontAwesomeIcon icon={faStar} />
@@ -43,7 +43,7 @@ const Shop = () => {
             <p>Logitech 56V Web Cam Pro</p>
             <p className="text-lg font-bold">$39.00</p>
           </div>
-          <div className="w-[300px] bg-white text-center py-8">
+          <div className="w-[300px] bg-white text-center py-8 mx-auto">
             <img src={productImage3} alt="" className="mx-auto" />
             <div className="text-primary py-4 flex gap-2 justify-center">
               <FontAwesomeIcon icon={faStar} />
@@ -55,7 +55,7 @@ const Shop = () => {
             <p>Logitech 56V Web Cam Pro</p>
             <p className="text-lg font-bold">$39.00</p>
           </div>
-          <div className="w-[300px] bg-white text-center py-8">
+          <div className="w-[300px] bg-white text-center py-8 mx-auto">
             <img src={productImage4} alt="" className="mx-auto" />
             <div className="text-primary py-4 flex gap-2 justify-center">
               <FontAwesomeIcon icon={faStar} />

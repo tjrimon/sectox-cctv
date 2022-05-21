@@ -18,11 +18,11 @@ const Process = () => {
         <p className="text-center">Process</p>
         <hr className="ml-3 border-[1px]  border-primary w-8 " />
       </div>
-      <h3 className="text-[35px] text-center pb-3 lg:text-[60px] font-bold">
+      <h3 className="text-[25px] md:text-[35px] text-center pb-3 lg:text-[60px] font-bold">
         How We Work Here
       </h3>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8 mx-auto">
+        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center mx-auto">
           <h3 className="text-[100px] text-gray-300">01</h3>
           <h3 className="text-[18px]">Drone CCTV Discussion</h3>
           <FontAwesomeIcon
@@ -30,7 +30,7 @@ const Process = () => {
             icon={faCloud}
           />
         </div>
-        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center">
+        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center mx-auto">
           <h3 className="text-[100px] text-gray-300">02</h3>
           <h3 className="text-[18px]">Live Footage Collection</h3>
           <FontAwesomeIcon
@@ -38,7 +38,7 @@ const Process = () => {
             icon={faVideo}
           />
         </div>
-        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center">
+        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center mx-auto">
           <h3 className="text-[100px] text-gray-300">03</h3>
           <h3 className="text-[18px]">Monitor From Anywhere</h3>
           <FontAwesomeIcon
@@ -46,7 +46,7 @@ const Process = () => {
             icon={faEarthAmerica}
           />
         </div>
-        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center">
+        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center mx-auto">
           <h3 className="text-[100px] text-gray-300">04</h3>
           <h3 className="text-[18px]">Hacker & Custom Solution</h3>
           <FontAwesomeIcon
@@ -54,7 +54,7 @@ const Process = () => {
             icon={faHatCowboy}
           />
         </div>
-        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center">
+        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center mx-auto">
           <h3 className="text-[100px] text-gray-300">05</h3>
           <h3 className="text-[18px]">
             Desk & HDD <br />
@@ -65,7 +65,7 @@ const Process = () => {
             icon={faComputer}
           />
         </div>
-        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center">
+        <div className="font-bold py-10 w-48 bg-white shadow-lg text-center mx-auto">
           <h3 className="text-[100px] text-gray-300">06</h3>
           <h3 className="text-[18px]">
             Flight Mode <br /> Activated
@@ -76,10 +76,10 @@ const Process = () => {
           />
         </div>
       </div>
-      <h3 className="text-[30px] text-center pt-10 pb-3 font-bold">
+      <h3 className="text-[20px] px-5 md:px-5 md:text-[30px] text-center pt-10 pb-3 font-bold">
         Providing Smart Security For The Smart Generation.
       </h3>
-      <div className="flex justify-center items-center gap-5 pt-7">
+      <div className="flex flex-col md:flex-row mx-auto text-center justify-center items-center gap-5 pt-7">
         <button className="btn btn-primary rounded-none text-[14px] capitalize text-white">
           Commercial CCTV System
           <FontAwesomeIcon

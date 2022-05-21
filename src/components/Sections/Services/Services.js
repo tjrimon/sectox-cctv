@@ -12,7 +12,7 @@ import {
   faShieldHeart,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Services = ({ color }) => {
+const Services = () => {
   const [openTab, setOpenTab] = useState(2);
 
   return (
@@ -30,10 +30,10 @@ const Services = ({ color }) => {
         <div className="flex flex-wrap">
           <div className="w-full">
             <ul
-              className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row w-3/4 mx-auto"
+              className="grid grid-cols-2 gap-5 md:flex mb-0  list-none  pt-3 pb-4  w-3/4 mx-auto"
               role="tablist"
             >
-              <li className="w-0 mr-2 last:mr-0 flex-auto text-center">
+              <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
                 <a
                   className={
                     "text-xs font-bold uppercase px-0 py-3 shadow-lg  block leading-normal " +
@@ -119,13 +119,13 @@ const Services = ({ color }) => {
                     id="link1"
                   >
                     {/* tab content item  */}
-                    <div className="flex gap-8 ">
+                    <div className="md:flex gap-8 ">
                       {/* tab image  */}
-                      <div className="mb-[-50px] pt-5 pl-5">
+                      <div className="md:mb-[-50px] pt-5 pl-5">
                         <img src={ipCamera} alt="" />
                       </div>
                       {/* content  */}
-                      <div className="w-1/2 pt-5">
+                      <div className="md:w-1/2 pt-5 text-center md:text-left">
                         <h3 className="rounded-full bg-primary inline-block py-4 px-3 text-2xl font-bold text-white">
                           <small>$</small>99
                         </h3>
@@ -205,13 +205,13 @@ const Services = ({ color }) => {
                     id="link2"
                   >
                     {/* tab content item  */}
-                    <div className="flex gap-8 ">
+                    <div className="md:flex gap-8 ">
                       {/* tab image  */}
-                      <div className="mb-[-50px] pt-5 pl-5">
+                      <div className="md:mb-[-50px] pt-5 pl-5">
                         <img src={ipCctv} alt="" />
                       </div>
                       {/* content  */}
-                      <div className="w-1/2 pt-5">
+                      <div className="md:w-1/2 pt-5 text-center md:text-left">
                         <h3 className="rounded-full bg-primary inline-block py-4 px-3 text-2xl font-bold text-white">
                           <small>$</small>59
                         </h3>
@@ -291,13 +291,13 @@ const Services = ({ color }) => {
                     id="link3"
                   >
                     {/* tab content item  */}
-                    <div className="flex gap-8 ">
+                    <div className="md:flex gap-8 ">
                       {/* tab image  */}
-                      <div className="mb-[-50px] pt-5 pl-5">
+                      <div className="md:mb-[-50px] pt-5 pl-5">
                         <img src={dualCamera} alt="" />
                       </div>
                       {/* content  */}
-                      <div className="w-1/2 pt-5">
+                      <div className="md:w-1/2 pt-5 text-center md:text-left">
                         <h3 className="rounded-full bg-primary inline-block py-4 px-3 text-2xl font-bold text-white">
                           <small>$</small>59
                         </h3>
@@ -377,13 +377,13 @@ const Services = ({ color }) => {
                     id="link3"
                   >
                     {/* tab content item  */}
-                    <div className="flex gap-8 ">
+                    <div className="md:flex gap-8 ">
                       {/* tab image  */}
-                      <div className="mb-[-50px] pt-5 pl-5">
+                      <div className="md:mb-[-50px] pt-5 pl-5 ">
                         <img src={ipCctv} alt="" />
                       </div>
                       {/* content  */}
-                      <div className="w-1/2 pt-5">
+                      <div className="md:w-1/2 pt-5 text-center md:text-left">
                         <h3 className="rounded-full bg-primary inline-block py-4 px-3 text-2xl font-bold text-white">
                           <small>$</small>79
                         </h3>

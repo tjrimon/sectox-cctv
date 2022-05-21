@@ -5,7 +5,7 @@ import { faPlay } from "@fortawesome/free-solid-svg-icons";
 const IntroVideo = () => {
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="h-[800px] flex justify-center items-center bg-[url('https://i.ibb.co/fr2N2Pj/video-bg.png')] bg-cover bg-center bg-no-repeat flex-col">
+    <div className="h-[600px] md:h-[800px] flex justify-center items-center bg-[url('https://i.ibb.co/fr2N2Pj/video-bg.png')] bg-cover bg-center bg-no-repeat flex-col">
       <button
         className="inline-block p-5 rounded-full border border-gray-100"
         type="button"
@@ -57,7 +57,7 @@ const IntroVideo = () => {
         <p className="text-center">intro video</p>
         <hr className="ml-3 border-[1px]  border-white w-8 " />
       </div>
-      <h3 className="text-3xl text-white lg:text-3xl font-bold">
+      <h3 className="text-2l md:text-3xl text-white lg:text-3xl font-bold">
         CCTV Security On The Way
       </h3>
     </div>

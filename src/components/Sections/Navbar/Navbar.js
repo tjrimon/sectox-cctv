@@ -157,7 +157,7 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex font-bold">
           <ul className="menu menu-horizontal p-0">{mainMenu}</ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end hidden md:block md:flex justify-end">
           <a
             className="btn bg-white hover:bg-white rounded-none text-[14px] text-secondary border-gray-300 hover:border-gray-300 mr-3 "
             href="#"

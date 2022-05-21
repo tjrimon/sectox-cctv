@@ -6,7 +6,7 @@ import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <div>
-      <div className="container mx-auto mb-[-50px] backface-hidden">
+      <div className="hidden md:block container mx-auto mb-[-50px] backface-hidden">
         <div className="bg-white shadow-xl flex items-center justify-between">
           <div>
             <img width={140} src={logo} alt="" className="py-5 pl-7" />
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-secondary">
-        <div className="container mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8 py-16">
+        <div className="container  px-8 text-center md:text-left md:px-0 mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8 py-16">
           <div>
             <h3 className="text-white font-bold pt-10 pb-5">About Us</h3>
             <p className="text-gray-300">
@@ -109,7 +109,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div>
+          <div className="flex md:flex-none flex-col justify-center items-center">
             <h3 className="text-white font-bold pt-10 pb-5">Get Newsletter</h3>
             <p className="text-gray-300">
               Sign up today for hints, tips & the latest product news
@@ -135,10 +135,10 @@ const Footer = () => {
         </div>
         <div className="bg-primary py-3">
           <div className="container mx-auto flex justify-between items-center">
-            <p className="text-white">
+            <p className="text-white text-center px-5 md:text-left md:px-0">
               Copyright © 2022 Sectox by ThemePure. All Rights Reserved.
             </p>
-            <div className="flex justify-between gap-5 items-center">
+            <div className="flex hidden md:block justify-between gap-5 items-center">
               <a
                 className="text-white flex py-2 items-center gap-2 text-decoration-none"
                 href="#"

@@ -17,11 +17,11 @@ const Blog = () => {
         <p className="text-center">Blog</p>
         <hr className="ml-3 border-[1px]  border-primary w-8 " />
       </div>
-      <h3 className="text-[35px] text-center pb-3 lg:text-[60px] font-bold">
+      <h3 className="text-[25px] md:text-[35px] text-center pb-3 lg:text-[60px] font-bold">
         Company Blog & Insight
       </h3>
       <div className="py-10 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 mx-auto">
-        <div className=" w-[350px]  lg:w-[400px]">
+        <div className="w-[300px] md:w-[350px]  lg:w-[400px] mx-auto">
           <img className="mx-auto" src={blogImg1} alt="" />
           {/* Blog Content*/}
           <div className="p-6 border mt-[-115px] pt-36 border-gray-300">
@@ -52,7 +52,7 @@ const Blog = () => {
             </button>
           </div>
         </div>
-        <div className=" w-[350px]  lg:w-[400px]">
+        <div className=" w-[300px] md:w-[350px]  lg:w-[400px] mx-auto">
           <img className="mx-auto" src={blogImg2} alt="" />
           {/* Blog Content*/}
           <div className="p-6 border mt-[-115px] pt-36 border-gray-300">
@@ -83,7 +83,7 @@ const Blog = () => {
             </button>
           </div>
         </div>
-        <div className=" w-[350px]  lg:w-[400px]">
+        <div className=" w-[300px] md:w-[350px]  lg:w-[400px] mx-auto">
           <img className="mx-auto" src={blogImg3} alt="" />
           {/* Blog Content*/}
           <div className="p-6 border mt-[-115px] pt-36 border-gray-300">
